@@ -1,11 +1,11 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Desktop preview](#desktop-previe)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,14 +16,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 To build out this QR code component and get it looking as close to the design as possible.
 
-### Desktop preview
+### Screenshot
 
-![](./assets/design/desktop-preview.jpg)
+![](./assets/design/desktop-preview.png)
 
 ### Links
 
-- Solution URL: [See Solution Site](#)
-- Live Site URL: [See Preview Site](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/01-qr-code-component/)
+- Solution URL: [Frontend Mentor](#)
+- Live Site URL: [Github Pages](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/01-qr-code-component/)
 
 ## My process
 
