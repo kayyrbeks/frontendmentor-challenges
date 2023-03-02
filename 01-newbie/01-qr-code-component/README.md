@@ -22,7 +22,7 @@ To build out this QR code component and get it looking as close to the design as
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-use-only-html-and-css-yD34R8eehM)
 - Live Site URL: [Github Pages](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/01-qr-code-component/)
 
 ## My process
