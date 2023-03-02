@@ -43,7 +43,7 @@ body {
   margin: 0px 16px 40px;
 }
 
-.card-description h2 {
+.card-description h1 {
   color: #1f314f;
   font-size: var(--22px);
   font-weight: 700;
