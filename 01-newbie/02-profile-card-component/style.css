@@ -24,10 +24,10 @@ html {
 body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: #19a1ae;
-  /* background-image: url("./assets/images/bg-pattern-top.svg"),
+  background-image: url("./assets/images/bg-pattern-top.svg"),
     url("./assets/images/bg-pattern-bottom.svg");
-  background-position: top 128% left -66%, bottom 173% right -54%;
-  background-repeat: no-repeat; */
+  background-position: bottom 36vh right 52vw, top 52vh left 48vw;
+  background-repeat: no-repeat;
 }
 
 /* Containers block */
