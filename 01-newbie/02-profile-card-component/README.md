@@ -22,7 +22,7 @@ To build out this Profile Card component and get it looking as close to the desi
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-use-only-html-and-css-hLJPPol1yf)
 - Live Site URL: [Github Pages](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/02-profile-card-component/)
 
 ## My process
