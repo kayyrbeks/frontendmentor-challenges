@@ -22,7 +22,7 @@ To build out this Order summary card and get it looking as close to the design a
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-card-solution-use-only-html-and-css-QuocQl8_LR)
 - Live Site URL: [Github Pages](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/04-order-summary-component/)
 
 ## My process
