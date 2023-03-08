@@ -1,0 +1,266 @@
+/* CSS Reset */
+*, ::before {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1 {
+  overflow-wrap: break-word;
+}
+
+/* Card style */
+html {
+  --14px: 0.875rem;
+  --15px: 0.9375rem;
+  --16px: 1rem;
+  --17px: 1.0625rem;
+  --19px: 1.1875rem;
+  --20px: 1.25rem;
+  --21px: 1.3125rem;
+  --24px: 1.5rem;
+  --25px: 1.5625rem;
+  --26px: 1.625rem;
+  --28px: 1.75rem;
+  --32px: 2rem;
+  --37px: 2.3125rem;
+  --45px: 2.8125rem;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #E0E8FF;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main::before {
+  width: 100vw;
+  min-height: 100vh;
+  content: "";
+  position: absolute;
+  background-image: url("./assets/images/pattern-background-desktop.svg");
+  background-position: center 0;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Card container */
+.card-container {
+  display: block;
+  max-width: 450px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+}
+
+.card-image {
+  border-radius: 20px 20px 0 0;
+  height: 220px;
+}
+
+/* Card description */
+.card-description {
+  margin: var(--45px) 48px var(--20px) 48px;
+}
+
+.card-description h1 {
+  color: #1F2E55;
+  font-weight: 900;
+  font-size: var(--28px);
+  line-height: var(--37px);
+  margin-bottom: var(--17px);
+}
+
+.card-description p {
+  color: #717FA6;
+  font-weight: 500;
+  font-size: var(--16px);
+  line-height: var(--26px);
+}
+
+/* Card plan */
+.card-plan {
+  background-color: #F7F9FF;
+  border-radius: 11px;
+  margin: 0px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--25px) 24px;
+}
+
+.plan-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan-price .icon-music {
+  display: inline-block;
+  background: url("./assets/icons/icon-music.svg");
+  width: 48px;
+  height: 48px;
+}
+
+.plan-price .plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.plan-price .plan p:first-child {
+  color: #1F2E55;
+  font-weight: 900;
+  font-size: var(--16px);
+  line-height: var(--21px);
+}
+
+.plan-price .plan p:last-child {
+  color: #717FA6;
+  font-size: var(--16px);
+  line-height: var(--21px);
+}
+
+.card-plan .change-plan {
+  color: #382AE1;
+  font-weight: 700;
+  font-size: var(--14px);
+  line-height: var(--19px);
+  text-decoration: underline;
+}
+
+.card-plan .change-plan:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+/* Card button */
+.card-payment {
+  padding-bottom: 48px;
+  margin-top: var(--32px);
+}
+
+.card-payment .payment-button {
+  color: #fff;
+  font-weight: 900;
+  font-size: var(--15px);
+  line-height: var(--20px);
+  background-color: #382AE1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  padding: 15px 102px;
+}
+
+.card-payment .payment-button:hover {
+  background-color: #766CF1;
+}
+
+.card-payment .payment-cancel {
+  color: #717FA6;
+  font-weight: 900;
+  font-size: var(--15px);
+  line-height: var(--20px);
+  margin-top: var(--32px);
+}
+
+.card-payment .payment-cancel:hover {
+  color: #1F2E55;
+}
+
+/* For normal mobile devices */
+@media(max-width: 450px) {
+  main::before {
+    background-image: url("./assets/images/pattern-background-mobile.svg");
+    background-size: 100% 25%;
+  }
+  .card-container {
+    max-width: 327px;
+  }
+  .card-image {
+    height: 160px;
+  }
+  .card-description {
+    margin: var(--32px) 32px var(--24px) 32px;
+  }
+  .card-plan {
+    margin: 0 24px;
+    padding: var(--16px) 16px;
+  }
+  .card-payment .payment-button {
+    padding: 15px 64px;
+  }
+  .card-payment .payment-cancel {
+    margin-top: var(--24px);
+  }
+  .card-payment {
+    padding-bottom: 32px;
+  }
+}
+
+/* For small mobile devices */
+@media(max-width: 340px) {
+  main::before {
+    background-image: url("./assets/images/pattern-background-mobile.svg");
+    background-size: 100% 15%;
+  }
+  .card-container {
+    max-width: 260px;
+  }
+  .card-image {
+    width: 100%;
+    height: 120px;
+  }
+  .card-description {
+    margin: var(--32px) 32px var(--24px) 32px;
+  }
+  .card-plan {
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 24px;
+    padding: var(--16px) 16px;
+  }
+  .card-payment .payment-button {
+    padding: 15px 40px;
+  }
+  .card-payment .payment-cancel {
+    margin-top: var(--24px);
+  }
+  .card-payment {
+    padding-bottom: 32px;
+  }
+}
