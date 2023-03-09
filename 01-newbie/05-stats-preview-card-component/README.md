@@ -22,7 +22,7 @@ To build out this Stats preview card component and get it looking as close to th
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-use-html-and-css-QBxozEcrRg)
 - Live Site URL: [Github Pages](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/05-stats-preview-card-component/)
 
 ## My process
