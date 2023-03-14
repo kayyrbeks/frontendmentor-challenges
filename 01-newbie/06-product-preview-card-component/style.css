@@ -131,3 +131,42 @@ main {
 .perfume-btn:hover {
   background-color: #1a4032;
 }
+
+@media (max-width: 40.625em) {
+  .perfume-container {
+    flex-direction: column;
+  }
+
+  .perfume-img img {
+    display: none;
+  }
+
+  .perfume-img {
+    background: url("./images/image-product-mobile.jpg") no-repeat center
+      center/cover;
+    width: 343px;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .perfume-info {
+    max-width: 18.4375rem;
+    margin: 1.5rem;
+  }
+
+  .perfume-info > p:first-child {
+    margin-bottom: 0.75rem;
+  }
+
+  .perfume-info h1 {
+    margin-bottom: 1rem;
+  }
+
+  .perfume-info .perfume-description {
+    margin-bottom: 1.5rem;
+  }
+
+  .perfume-price {
+    margin-bottom: 20px;
+  }
+}
