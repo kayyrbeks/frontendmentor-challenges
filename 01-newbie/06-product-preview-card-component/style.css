@@ -1,0 +1,133 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+/* Component style */
+body {
+  color: #6c7289;
+  background-color: #f2eae2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfume-container {
+  max-width: 37.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfume-img img {
+  border-radius: 10px 0 0 10px;
+}
+
+.perfume-info {
+  max-width: 14.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.perfume-info > p:first-child {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25em;
+  letter-spacing: 0.4167em;
+  text-transform: uppercase;
+  margin-bottom: 1.667em;
+}
+
+.perfume-info h1 {
+  color: #1c232b;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1em;
+  margin-bottom: 0.75em;
+}
+
+.perfume-info .perfume-description {
+  font-weight: 500;
+  line-height: 1.643em;
+  margin-bottom: 2.072em;
+}
+
+.perfume-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.36em;
+  margin-bottom: 2.143em;
+}
+
+.perfume-price span {
+  color: #3d8168;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  line-height: 1em;
+}
+
+.perfume-price p:last-child {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.77em;
+  text-decoration: line-through;
+}
+
+.perfume-btn {
+  background-color: #3d8168;
+  padding: 1.072em 4.43em;
+  border-radius: 0.572em;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.22em;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.83em;
+}
+
+.perfume-btn .btn-icon {
+  display: inline-block;
+  background-image: url("./icons/icon-cart.svg");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 16px;
+}
+
+.perfume-btn:hover {
+  background-color: #1a4032;
+}
