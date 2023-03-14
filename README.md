@@ -27,6 +27,6 @@ I use the following some rules to work with git:
 - _feat:_ used to add a new functionality
   - `feat: add header markup`
 - _fix:_ used to fixed a bug in previously implemented functionality
-  - `feat: add header markup`
+  - `fix: change header layout to fix bug`
 - _refactor:_ used when did not add new functionality / did not change behavior
   - `refactor: change project structure`
