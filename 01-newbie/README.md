@@ -12,3 +12,4 @@ Challenges for new to HTML and CSS.
 | 04  | Order summary card solution    | HTML, CSS, Flexbox | [Live Site](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/04-order-summary-component/)        |
 | 05  | Stats preview card component   | HTML, CSS, Flexbox | [Live Site](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/05-stats-preview-card-component/)   |
 | 06  | Product preview card component | HTML, CSS, Flexbox | [Live Site](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/06-product-preview-card-component/) |
+| 07  | Results summary component      | HTML, CSS, Flexbox | [Live Site](https://kayyrbeks.github.io/frontendmentor-challenges/01-newbie/07-results-summary-component/)      |
