@@ -274,6 +274,7 @@ main {
 
 /* Button */
 .summary-btn {
+  width: 100%;
   display: block;
   background: #303b59;
   border-radius: 8rem;
@@ -286,4 +287,48 @@ main {
 .summary-btn:hover,
 .summary-btn:active {
   background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+}
+
+@media (max-width: 48em) {
+  .summary-container {
+    border-radius: 0;
+    flex-direction: column;
+  }
+  .summary-result {
+    width: 23.4375rem;
+    border-radius: 0 0 2rem 2rem;
+  }
+  .summary-result p:first-child {
+    margin: 1.5rem 0;
+  }
+  .summary-result .result {
+    width: 8.75rem;
+    height: 8.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .summary-result .result .main-result {
+    font-size: 3.5rem;
+  }
+  .summary-result .result .max-result {
+    font-size: 1rem;
+    line-height: 1.3125em;
+  }
+  .summary-result h1 {
+    font-size: 1.5rem;
+    line-height: 1.292em;
+    margin-bottom: 0.334em;
+  }
+  .summary-result p:last-child {
+    font-size: 1rem;
+    line-height: 1.3125em;
+    margin-bottom: 2.5em;
+  }
+  .summary-info {
+    width: 100%;
+    padding: 1.5rem 1.875rem 1.875rem;
+  }
+  .summary-info h2,
+  .summary-detail {
+    margin-bottom: 1.5rem;
+  }
 }
