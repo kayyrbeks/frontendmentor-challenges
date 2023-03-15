@@ -5,21 +5,10 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 img,
 svg {
   display: block;
   max-width: 100%;
-}
-
-p,
-h1,
-h2 {
-  overflow-wrap: break-word;
 }
 
 /* Component style */
