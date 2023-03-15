@@ -8,7 +8,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Build with](#build-with)
+  - [Built with](#built-with)
   - [What I Learned](#what-i-learned)
 - [Author](#author)
 
